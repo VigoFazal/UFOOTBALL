@@ -1,0 +1,60 @@
+/* Roboto  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {
+    font-family: "Microsoft YaHei";
+    src: url("../font/msyh.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Microsoft YaHei bold";
+    src: url("../font/msyhbd.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Microsoft YaHeil light";
+    src: url("../font/msyhl.woff") format("woff");
+}
+  
+
+/* Montserrat  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === FS-20 =============================  */
+.fs-20 {
+    font-size: var(--fs-22);
+    letter-spacing: 2px;
+    /* line-height: 55px; */
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: var(--w-700);
+    font-family: var(--roboto);
+    text-align: center;
+}

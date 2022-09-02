@@ -1,0 +1,119 @@
+.make__profile_head {
+    width: 100%;
+    height: 47px;
+    background-color: #44b253;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2.9rem;
+}
+.make__profile_head_text {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    /* font-family: "Microsoft Ya Hei"; */
+}
+
+
+
+.profile__upload {
+    padding: var(--header-px);
+    box-sizing: border-box;
+}
+
+.profile__upload .form-label {
+    color: var(--black);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+
+.profile__upload .form-control {
+    box-shadow: none;
+    border: 1px solid #d8d8d8;
+    border-radius: 0.6rem;
+    background: #e1e1e1;
+    height: 3.8rem;
+    font-size: 16px;
+    margin-left: auto;
+    width: calc(100% - 2.8rem);    
+    padding-left: 2rem;
+    caret-color: var(--green-dark);
+}
+
+.profile__upload .form-control::placeholder {
+    color: #adadad;
+    opacity: 1;
+    font-weight: 600;
+}
+.form-text {
+    font-size: 14px;
+    margin-left: auto;
+    font-weight: 800;
+    width: calc(100% - 2.8rem);    
+    color: #c7c7c7;
+    margin-top: 0px;
+
+}
+.profile__upload_layout {
+    margin-bottom: 2.6rem;
+}
+.profile__upload_layout.last {
+    margin-bottom: 1.4rem;
+
+}
+
+
+.update__btn {
+    display: inline-block;
+    border-radius: 12px;
+    background-color: rgb(201, 25, 74);
+    width: 150px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+
+    margin-bottom: 3.2rem;
+}
+
+.update__btn:hover {
+    color: var(--white);
+}
+
+
+.profile__upload_outline .form-control {
+    background: transparent;
+    border-width: 2px !important;
+
+}
+
+
+
+@media (max-width:350px){
+    .profile__upload .form-control,
+    .profile__upload .form-text {
+        width: calc(100% - 0rem);    
+    }
+    .profile__upload_layout {
+        margin-bottom: 1.5rem;
+    }
+    .make__profile_head {
+        margin-bottom: 0;
+    }
+}

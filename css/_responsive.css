@@ -1,0 +1,34 @@
+@media (min-width:510px) {
+   header,footer,main,.hero__event_1,.event_faqs{
+    display: none;
+   } 
+   body {
+    background: var(--green);
+    min-height: 100vh;
+   }
+   
+}
+
+
+@media (max-width:450px) {
+    :root {
+        --header-logo: 17rem;
+        --menu-icon: 2rem;
+    }
+
+    .navbar-lang {
+        font-size: 1.9rem;
+    }
+    
+ }
+
+ @media (max-width:450px) {
+    :root {
+        --header-logo: 17rem;
+    }
+
+    .navbar-lang {
+        font-size: 1.6rem;
+    }
+    
+ }

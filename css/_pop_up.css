@@ -1,0 +1,167 @@
+
+.pop__center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pop_layout {
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(0px 10px 0px #afafaf);
+    width: 407px;
+    height: 539px;
+    border: 1px solid #afafaf;
+    padding: 2.8rem 2.9rem;
+}
+
+.pop_layout .pop_layout__head {}
+.pop_layout .pop_layout__head .pop_layout__head_tittle,
+.pop_layout .pop_layout__body .pop_layout__body__tittle {
+    font-size: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #256016;
+    font-weight: bold;
+    font-family: var(--yaHei-bold);
+    text-align: center;
+
+    margin-bottom: 1.7rem;
+}
+
+.pop_layout .pop_layout__social {
+    margin-bottom: 3.8rem;
+
+}
+.pop_layout .pop_layout__social .pop_layout__social_link {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.pop_layout .pop_layout__social .pop_layout__social_link .pop_layout__social_link_icon {
+    width: 5.3rem;
+    display: block;
+    margin-right: 1.7rem;
+}
+.pop_layout .pop_layout__social .pop_layout__social_link .pop_layout__social_link_icon:last-child {
+    margin-right: 0rem;
+}
+
+
+.pop_layout .pop_layout__body {}
+.pop_layout .pop_layout__body .pop_layout__body__tittle {
+    margin-bottom: 1.2rem;
+}
+.pop_layout .pop_layout__body .pop_layout__body__content {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #efefef;
+    margin: 0 auto;
+    padding: 2.1rem 2.7rem;
+    padding-bottom: 3.2rem;
+    text-align: start;
+
+    margin-bottom: 3.4rem   ;
+}
+.pop_layout .pop_layout__body .pop_layout__body__content .pop_layout__body__content_text {
+    font-size: 25px;
+    line-height: 29px;
+    color: #454545;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pop_layout .pop_layout__footer {}
+.pop_layout .pop_layout__footer .pop_layout__footer_btn {
+    width: 167px;
+    height: 57px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 0px 0px rgb(42, 116, 46);
+    background-color: #3ab54a;
+    display: inline-block;
+    font-size: 29px;
+    letter-spacing: 3px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Microsoft Ya Hei";
+    text-align: center;
+    transition: 0.2s all;
+}
+
+.pop_layout .pop_layout__footer .pop_layout__footer_btn:hover {
+    box-shadow: 0px 4px 0px 0px rgb(42, 116, 46);
+    background-color: #2c903a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay__black {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.612);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop__layout_correct {
+    width: 40rem;
+
+
+
+    position: relative;
+}
+
+.pop__layout_correct {}
+.pop__layout_correct .pop__layout_correct_back {}
+.pop__layout_correct .pop__layout_correct_content {
+    position: absolute;
+    inset: 0;
+    background: red;
+}
+.pop__layout_correct .pop__layout_correct_content_text {
+    font-size: 29px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #373535;
+    font-family: var(--yaHei);
+    text-align: center;
+}
+.pop__layout_correct .pop__layout_correct_content_btns {}
+.pop__layout_correct .pop__layout_correct_content_btn {}

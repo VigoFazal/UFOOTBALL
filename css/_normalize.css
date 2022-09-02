@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,span {
+    padding: 0;
+    margin: 0;
+}
+ul,ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+
+:root {
+    --black : #373535;
+    --white : #ffffff;
+    --light-gray : #908f8f;
+    --green : rgb(68, 178, 83);
+    --green-dark : #18410e;
+    --red-dark : #c9194a;
+    --header-menu :rgb(50, 48, 48);
+    --off-canvas-header: 32rem;
+    --off-canvas-header-border :3px solid rgb(221, 221, 221);
+    --off-canvas-header-padding :3rem 2.7rem;
+    --header-py : 2rem;
+    --header-px : 3.5rem;      
+    --header-logo : 23rem;     
+    --menu-icon :3rem; 
+    --roboto : 'Roboto', sans-serif;
+    --yaHei : "Microsoft YaHei";
+    --yaHei-bold : "Microsoft YaHei bold";
+    --yaHei-light : "Microsoft YaHeil light";
+    --fs-22 : 2.2rem;
+    --fs-14 : 1.4rem;
+
+    --w-100 : 100;
+    --w-200 : 200;
+    --w-300 : 300;
+    --w-400 : 400;
+    --w-500 : 500;
+    --w-600 : 600;
+    --w-700 : 700;
+    --w-800 : 800;
+    --w-900 : 900;
+
+    --pop_layout-h : 20.6rem;
+    --pop_layout-w : 46rem;
+
+    --pop-green_3d_area-w :43.7rem;
+    --pop-green_3d_area-h :14.9rem;
+    --pop-green_3d_area-center :translate(-50%,-50%);
+
+    --photo-w-fix : 36.7rem;
+
+    --montserrat :'Montserrat', sans-serif;
+}
+
+
+body {
+    font-family: var(--yaHei);
+}
+::selection {
+    background: var(--green-dark);
+    color: var(--white);
+}
+
+.btn,.navbar-toggler {
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.user__btn:hover {
+    color: var(--white) !important;
+    opacity: 0.9;
+}
+
