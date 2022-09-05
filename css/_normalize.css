@@ -28,7 +28,7 @@ html {
     --black : #373535;
     --white : #ffffff;
     --light-gray : #908f8f;
-    --green : rgb(68, 178, 83);
+    --green : #44b253 !important;
     --green-dark : #18410e;
     --red-dark : #c9194a;
     --header-menu :rgb(50, 48, 48);
@@ -40,9 +40,10 @@ html {
     --header-logo : 23rem;     
     --menu-icon :3rem; 
     --roboto : 'Roboto', sans-serif;
-    --yaHei : "Microsoft YaHei";
-    --yaHei-bold : "Microsoft YaHei bold";
-    --yaHei-light : "Microsoft YaHeil light";
+
+    --yaHei : 'Microsoft YaHei';
+    --yaHei-bold : 'Microsoft YaHei';
+    --yaHei-light : 'Microsoft YaHei';
     --fs-22 : 2.2rem;
     --fs-14 : 1.4rem;
 
@@ -89,4 +90,11 @@ body {
     color: var(--white) !important;
     opacity: 0.9;
 }
+
+
+/* *,div {
+    background: #3735356c;
+    outline: 1px solid red;
+}
+ */
 

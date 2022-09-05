@@ -2,7 +2,7 @@
     width: 100%;
     height: 80.5rem;
     background: var(--white);
-    background-image: url("../images/event__01_hero.png");
+    background-image: url("../images/event__01_hero.webp");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -10,12 +10,12 @@
     z-index: 2;
 }
 .hero__event_1.event_pg_02 {
-    background-image: url("../images/event__02_hero.png");
+    background-image: url("../images/event__02_hero.webp");
 }
 
 .event_faqs {
     padding: 5rem 0px;
-    background-image: url("../images/event__banner_down.png");
+    background-image: url("../images/event__banner_down.webp");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: -250px;
@@ -99,7 +99,8 @@
 .event_faqs .accordion-body .card {
     border-radius: 20px;
     background-color: rgb(226, 240, 217);
-    width: 100%;
+    width: calc(100% - 1.7rem);
+    margin: 0 auto;
     height: 178px;
     border: none;
     display: flex;
@@ -192,3 +193,115 @@
     height: 100%;
     width: 100%;
 }   
+
+
+
+
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+/* ==========================================  */
+
+.event_faqs_02 .event_faqs_02_table {
+    position: relative;
+
+}
+
+.event_faqs_02 .event_faqs_02_table .event_faqs_02_table_back{
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+
+}
+.event_faqs_02 .event_faqs_02_table .event_faqs_02_table_content{
+    position: absolute;
+    inset: 28% 0 0 0;
+    background:  var(--white);
+    width: calc(100% - 1.8rem);
+    height: 35.5rem;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+.event_faqs_02 .accordion-body {
+    padding: 0px 1px;
+}
+
+.event_faqs_02 .event_faqs_winner_table {
+    padding: 2rem 1rem;
+}
+
+.event_faqs_02 .event_faqs_winner_table_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2.7rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid #dddddd;
+}
+
+
+.event_faqs_02 .event_faqs_winner_table_row .event_faqs_winner_bandage {
+    width: 4rem;
+}
+
+
+.event_faqs_02 .event_faqs_winner_username {
+    font-size: 21px;
+    color: #373535;
+    font-weight: bold;
+    font-family: var(--yaHei-bold);
+}
+
+.event_faqs_02 .event_faqs_winner_source {
+    font-size: 21px;
+    color: #373535;
+    font-family: var(--yaHei-bold);
+}
+
+.event_faqs_02 .event_faqs_winner_bandage {
+    font-size: 21px;
+    color: #373535;
+    font-family: var(--yaHei-bold);
+}
+.event_faqs_02 .event_faqs_winner_source .light {
+    font-size: 19px;
+    color: #373535;
+    font-family: var(--yaHei);
+}
+
+
+
+
+.event_faqs_02 .event_faqs_02_winner_frame {
+    padding: 0 2.2rem;
+    margin-bottom: 0.7rem;
+}
+
+.event_faqs_02 .event_faqs_02_winner_frame .user__frame {
+    filter: none;
+}
+
+
+.event_faqs_02 .event_faqs_02_winner_frame_img.one {
+    margin-bottom: -4.8rem;
+}
+/* .event_faqs_02 .event_faqs_02_winner_frame_img.two {
+    margin-bottom: -4.8rem;
+} */
+.event_faqs_02 .event_faqs_02_winner_frame_img.three {
+    margin-bottom: -9rem;
+}
+
+

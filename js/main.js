@@ -32,6 +32,19 @@ var swiper = new Swiper(".mySwiper", {
 	  nextEl: ".swiper-button-next",
 	  prevEl: ".swiper-button-prev",
 	},
+	breakpoints: {
+		350: {
+			slidesPerView: 4,
+			  spaceBetween: 5,
+  
+		  },
+		400: {
+		  slidesPerView: 5,
+			spaceBetween: 1,
+
+		},
+		
+	  },
 });
 
 // var swiper = new Swiper(".mySwiper-1", {
